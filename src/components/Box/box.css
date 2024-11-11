@@ -1,0 +1,57 @@
+.app-container {
+  margin: 4rem auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  max-width: 650px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px black;
+}
+.weatherForm {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+input[type="text"] {
+  padding: 10px 10px 10px 20px;
+  border-radius: 20px;
+  border: none;
+}
+#magnifier {
+  border-radius: 50%;
+  border: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.info span {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+h2 {
+  margin: 1rem 0rem;
+}
+.extra-info {
+  width: 100%;
+  margin-top: 40px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.extra-info .col {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 22px;
+}
+.extra-info .col span {
+  display: block;
+  font-size: 16px;
+}
